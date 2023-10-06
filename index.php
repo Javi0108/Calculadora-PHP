@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculadora con PHP</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <div class="contenedor">
-    <form action="" method="GET" enctype="multipart/form-data">
-            <h2>Calculadora:</h2>
+    <form method="GET" enctype="multipart/form-data">
+            <h2>Calculadora en entorno nativo:</h2>
 
             <label for="num1">Valor 1:</label>
             <input type="text" name="num1" size="5">
@@ -24,8 +24,8 @@
                 <option value="resta">Resta</option>
                 <option value="multiplicacion">Multiplicación</option>
                 <option value="division">División</option>
-            </select><br>
- 	    <img src="./img/calculadora.png" alt="Imagen de calculadora"><br>
+            </select><br><br>
+ 	    <img src="img/calculadora.png" alt="Imagen de calculadora"><br><br>
             <button type="submit">Calcular</button>
     </form>
 
